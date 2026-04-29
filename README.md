@@ -21,3 +21,6 @@ cyber-log-analysis-python/
 - Top IP analysis
 - Endpoint activity monitoring
 - Export report to Excel
+## Usage / Käyttö
+Run the analyzer ( log_analyzer.py) 
+Output will be generated in: outputs/reports.xlsx
