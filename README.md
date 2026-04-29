@@ -30,6 +30,6 @@ It is designed as a lightweight SOC-style monitoring tool for learning and demon
 - Top IP analysis
 - Endpoint activity monitoring
 - Export report to Excel
-## Usage / Käyttö
+## Usage
 Run the analyzer ( log_analyzer.py) 
 Output will be generated in: outputs/reports.xlsx
