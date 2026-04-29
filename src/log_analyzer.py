@@ -1,7 +1,7 @@
 import pandas as pd
 
-LOG_FILE = "../data/sample_logs.csv"
-OUTPUT_FILE = "../outputs/report.csv"
+LOG_FILE = "data/sample_logs.csv"
+OUTPUT_FILE = "outputs/report.csv"
 
 
 def load_logs():
@@ -20,12 +20,9 @@ def detect_bruteforce(failed_df, threshold=3):
 
 
 def top_ips(df):
-    return (
-        df["ip"]
-        .value_counts()
-        .reset_index()
-        .rename(columns={"index": "ip", "ip": "count"})
-    )
+    ip_counts = df["ip"].value_counts().reset_index()
+    ip_counts.columns = ["ip", "count"]
+    return ip_counts
 
 
 def suspicious_endpoints(df):
@@ -47,7 +44,7 @@ def build_report(df):
 
 
 def save_report(report):
-    with pd.ExcelWriter("../outputs/report.xlsx") as writer:
+    with pd.ExcelWriter("outputs/report.xlsx") as writer:
         for name, data in report.items():
             data.to_excel(writer, sheet_name=name, index=False)
 
