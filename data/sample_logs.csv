@@ -1,0 +1,6 @@
+timestamp,ip,user,endpoint,status_code,method
+2026-04-29 10:00:01,192.168.1.10,admin,/login,401,POST
+2026-04-29 10:00:02,192.168.1.10,admin,/login,401,POST
+2026-04-29 10:00:03,192.168.1.10,admin,/login,401,POST
+2026-04-29 10:00:10,8.8.8.8,-,/home,200,GET
+2026-04-29 10:01:00,10.0.0.5,user1,/dashboard,200,GET
