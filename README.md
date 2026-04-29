@@ -13,11 +13,11 @@ cyber-log-analysis-python/
 ├── data/
 │   └── input_logs/
 │
-├── src/
-│   └── log_analyzer.py
-│
 ├── outputs/
 │   └── report.xlsx
+│
+├── src/
+│   └── log_analyzer.py
 │
 ├── README.md
 └── requirements.txt
