@@ -11,13 +11,13 @@ It is designed as a lightweight SOC-style monitoring tool for learning and demon
 📁 cyber-log-analysis-python
 │
 ├── data/
-│   └── input_logs/
+│   └── input_logs/ # Input log files
 │
 ├── outputs/
-│   └── report.xlsx
+│   └── report.xlsx  # Generated reports
 │
 ├── src/
-│   └── log_analyzer.py
+│   └── log_analyzer.py  # Analysis scripts
 │
 ├── README.md
 └── requirements.txt
