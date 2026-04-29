@@ -6,3 +6,18 @@ This project is a simple cybersecurity log analyzer that detects suspicious acti
 It is designed as a lightweight SOC-style monitoring tool for learning and demonstration purposes.
 
 ## 📁 Project Structure
+cyber-log-analysis-python/
+│
+├── data/ # Input log files
+├── src/ # Analysis scripts
+├── outputs/ # Generated reports
+├── README.md
+└── requirements.txt
+
+## Features / Ominaisuudet
+
+- Failed login detection
+- Brute force attack detection
+- Top IP analysis
+- Endpoint activity monitoring
+- Export report to Excel
