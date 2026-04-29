@@ -8,9 +8,10 @@ It is designed as a lightweight SOC-style monitoring tool for learning and demon
 ## Project Structure
 cyber-log-analysis-python/
 │
-├── data/ # Input log files
-├── src/ # Analysis scripts
-├── outputs/ # Generated reports
+├── data/        # Input log files
+├── src/         # Analysis scripts
+├── outputs/     # Generated reports
+│
 ├── README.md
 └── requirements.txt
 
