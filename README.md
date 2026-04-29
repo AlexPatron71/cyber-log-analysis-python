@@ -5,20 +5,23 @@ This project is a simple cybersecurity log analyzer that detects suspicious acti
 
 It is designed as a lightweight SOC-style monitoring tool for learning and demonstration purposes.
 
-## Project Structure
-📁 cyber-log-analysis-python
+## Project Structure / Projektin rakenne
+
+```text
+cyber-log-analysis-python/
 │
-├── 📁 data
-│   └── input logs
+├── data/
+│   └── input_logs/
 │
-├── 📁 src
+├── src/
 │   └── log_analyzer.py
 │
-├── 📁 outputs
+├── outputs/
 │   └── report.xlsx
 │
-├── 📄 README.md
-└── 📄 requirements.txt
+├── README.md
+└── requirements.txt
+```
 
 ## Features / Ominaisuudet
 
