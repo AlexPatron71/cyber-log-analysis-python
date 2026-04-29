@@ -20,9 +20,12 @@ def detect_bruteforce(failed_df, threshold=3):
 
 
 def top_ips(df):
-    return df["ip"].value_counts().reset_index()
-    # columns fix
-    .rename(columns={"index": "ip", "ip": "count"})
+    return (
+        df["ip"]
+        .value_counts()
+        .reset_index()
+        .rename(columns={"index": "ip", "ip": "count"})
+    )
 
 
 def suspicious_endpoints(df):
