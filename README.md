@@ -8,7 +8,7 @@ It is designed as a lightweight SOC-style monitoring tool for learning and demon
 ## Project Structure / Projektin rakenne
 
 ```text
-cyber-log-analysis-python/
+📁 Project Structure / Projektin rakenne
 │
 ├── data/
 │   └── input_logs/
